@@ -14,15 +14,16 @@ public class MyStack {
 		myList.add(myNode);
 	}
 
+	// create and add to the stack
+	
+	public INode peak() {
+		return myList.head;
+	}
+	
 	public void printStack() {
 		myList.print();
 	}
 
-	public INode peak() {
-		return myList.head;
-	}
+	// print the stack
 
-	public INode pop() {
-		return myList.pop();
-	}
 }
