@@ -85,4 +85,14 @@ public class LinkedList {
 	}
 	
 	// pop the last element of the list
+	
+	public int size() {
+		int size = 0;
+		INode temp = head;
+		while (temp != null) {
+			size++;
+			temp = temp.getNext();
+		}
+		return size;
+	}
 }
