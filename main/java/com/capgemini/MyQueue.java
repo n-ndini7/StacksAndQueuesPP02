@@ -11,6 +11,7 @@ public class MyQueue {
 		myList.append(newNode);
 	}
 
+	// perform enQueue operation
 	public int size() {
 		return myList.size();
 	}
@@ -25,4 +26,13 @@ public class MyQueue {
 	public void printQueue() {
 		myList.print();
 	}
+
+	// print queue
+
+	public INode deQueue() {
+		return myList.pop();
+	}
+
+	// perform deQueue from the beginning
+
 }
