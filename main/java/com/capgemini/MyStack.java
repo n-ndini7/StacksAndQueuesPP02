@@ -26,4 +26,9 @@ public class MyStack {
 
 	// print the stack
 
+	public INode pop() {
+		return myList.pop();
+	}
+	
+	// pop the elements 
 }
